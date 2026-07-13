@@ -1,0 +1,7 @@
+upstream_repository: emilkowalski/skills
+upstream_url: https://github.com/emilkowalski/skills
+upstream_branch: main
+checkpoint_commit: 7bb7061b5cf7de15ea1aeaf00fbd9e6592a20fce
+checked_at: 2026-07-13
+checkpoint_kind: ported
+checkpoint_note: Initial React Native adaptation baseline for the five mapped upstream skills.

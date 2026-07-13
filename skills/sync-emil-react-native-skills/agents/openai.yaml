@@ -1,0 +1,12 @@
+interface:
+  display_name: Sync Emil React Native Skills
+  short_description: Track and port upstream skill changes safely
+  default_prompt: Use $sync-emil-react-native-skills to check Emil upstream changes
+    and report React Native impact without modifying anything.
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
