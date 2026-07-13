@@ -36,9 +36,9 @@ cp -R react-native-design-skills/skills/* ~/.codex/skills/
 Restart or reload your Codex environment after installation. You can then request a skill explicitly, for example:
 
 ```text
-Use @apple-design-react-native to improve this Expo card interaction.
-Use @review-react-native-animations to review this gesture implementation.
-Use @sync-emil-react-native-skills to check upstream changes and report only.
+Use $apple-design-react-native to improve this Expo card interaction.
+Use $review-react-native-animations to review this gesture implementation.
+Use $sync-emil-react-native-skills to check upstream changes and report only.
 ```
 
 The runtime can also select a skill automatically from its description when the request matches.

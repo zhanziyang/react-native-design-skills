@@ -24,7 +24,7 @@ Words such as "check," "inspect," "report," or "what changed" select check/repor
 
 1. Read [upstream-state.yaml](references/upstream-state.yaml) for the repository, branch, and exact checkpoint SHA.
 2. Read [upstream-map.md](references/upstream-map.md) for source-to-target ownership and classification rules.
-3. Locate installed target skills by matching the `name:` frontmatter in `/root/.codex/skills/remote-skills/*/SKILL.md`. Never depend on a stored `skill-<id>` directory name because installation may rewrite it.
+3. Locate installed target skills by recursively searching `SKILL.md` files beneath the current runtime's personal skills directory and matching the `name:` frontmatter. Cover both directly installed folders and managed subdirectories such as `~/.codex/skills/remote-skills/`; never assume a `/root` path or depend on a stored `skill-<id>` directory name. Require exactly one match per target name, and treat missing or duplicate matches as failures.
 
 ## Check Workflow
 
