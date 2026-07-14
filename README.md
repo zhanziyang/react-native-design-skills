@@ -25,7 +25,21 @@ These skills translate Web-first design ideas into native interaction contracts 
 
 ## Install
 
-Clone the repository and copy the named skill folders into your Codex personal skills directory:
+### Option 1: Using the skills CLI (recommended)
+
+```bash
+npx skills@latest add zhanziyang/react-native-design-skills
+```
+
+The CLI will automatically discover all 6 skills and install them to your project or global location. You can also install specific skills:
+
+```bash
+npx skills@latest add zhanziyang/react-native-design-skills --skill react-native-design-engineering
+```
+
+### Option 2: Manual copy
+
+Or clone the repository and copy the named skill folders into your Codex personal skills directory:
 
 ```bash
 git clone https://github.com/zhanziyang/react-native-design-skills.git
