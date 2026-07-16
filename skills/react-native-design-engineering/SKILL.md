@@ -11,8 +11,9 @@ Before doing any work, evaluate these routes in order and take the first match o
 
 1. Reverse lookup from a described effect to its canonical motion or gesture term -> `react-native-animation-vocabulary`.
 2. Apple-style interaction-principle reasoning -> `apple-design-react-native`.
-3. Whole-project or multi-file broad audit, planning, or animation refactor—not a bounded review of a named interaction, file, or diff -> `improve-react-native-animations`.
-4. Strict review or findings request bounded to a concrete interaction, named file, or specified diff—not a whole-project or multi-file broad audit -> `review-react-native-animations`.
+3. Read-only discovery of places where motion is absent but may be valuable -> `find-react-native-animation-opportunities`.
+4. Whole-project or multi-file broad audit, planning, or animation refactor—not opportunity-only discovery and not a bounded review of a named interaction, file, or diff -> `improve-react-native-animations`.
+5. Strict review or findings request bounded to a concrete interaction, named file, or specified diff—not a whole-project or multi-file broad audit -> `review-react-native-animations`.
 
 If this skill was explicitly invoked for one of those specialist requests, state the route and do not duplicate the specialist workflow. Continue here only for direct design, implementation, or polishing of a concrete Expo/React Native interaction.
 
