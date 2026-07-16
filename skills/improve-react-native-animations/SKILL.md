@@ -20,6 +20,7 @@ Treat motion as a native interaction system, not decoration. Build recommendatio
 | `execute <plan-path>` | One approved plan | Source changes using the existing stack plus verification |
 
 Route strict single-component or diff review to `review-react-native-animations`. Route direct implementation without an approved plan to `react-native-design-engineering`.
+Route requests that only ask where missing motion could help, without reviewing existing animations or requesting a broad fix plan, to `find-react-native-animation-opportunities`.
 
 ## Workflow
 
