@@ -9,6 +9,7 @@ These skills translate Web-first design ideas into native interaction contracts 
 | Skill | Use it for |
 | --- | --- |
 | `react-native-design-engineering` | Designing or implementing one concrete interaction, component, screen, gesture, or motion behavior |
+| `find-react-native-animation-opportunities` | Finding a restrained set of places where missing motion would genuinely improve a native interface |
 | `review-react-native-animations` | Strict evidence-based review of a bounded interaction, file, or diff |
 | `improve-react-native-animations` | Whole-project or multi-file animation audits, prioritized plans, and approved execution |
 | `react-native-animation-vocabulary` | Finding the canonical name for a described mobile motion or gesture concept |
@@ -19,6 +20,7 @@ These skills translate Web-first design ideas into native interaction contracts 
 
 - Need the name of an effect? Start with `react-native-animation-vocabulary`.
 - Need Apple-style interaction reasoning? Use `apple-design-react-native`.
+- Looking for missing motion without changing code? Use `find-react-native-animation-opportunities`.
 - Auditing a whole app or several files? Use `improve-react-native-animations`.
 - Reviewing one named interaction, file, or diff? Use `review-react-native-animations`.
 - Building or polishing one concrete native interaction? Use `react-native-design-engineering`.
@@ -31,10 +33,10 @@ These skills translate Web-first design ideas into native interaction contracts 
 npx skills@latest add zhanziyang/react-native-design-skills
 ```
 
-The CLI will automatically discover all 6 skills and install them to your project or global location. You can also install specific skills:
+The CLI will automatically discover all 7 skills and install them to your project or global location. You can also install specific skills:
 
 ```bash
-npx skills@latest add zhanziyang/react-native-design-skills --skill react-native-design-engineering
+npx skills@latest add zhanziyang/react-native-design-skills --skill find-react-native-animation-opportunities
 ```
 
 ### Option 2: Manual copy
@@ -51,6 +53,7 @@ Restart or reload your Codex environment after installation. You can then reques
 
 ```text
 Use $apple-design-react-native to improve this Expo card interaction.
+Use $find-react-native-animation-opportunities to find missing motion in this screen without editing it.
 Use $review-react-native-animations to review this gesture implementation.
 Use $sync-emil-react-native-skills to check upstream changes and report only.
 ```
@@ -64,6 +67,7 @@ This project is an independent React Native and Expo adaptation inspired by and 
 | Emil's upstream skill | React Native adaptation |
 | --- | --- |
 | `emil-design-eng` | `react-native-design-engineering` |
+| `find-animation-opportunities` | `find-react-native-animation-opportunities` |
 | `review-animations` | `review-react-native-animations` |
 | `improve-animations` | `improve-react-native-animations` |
 | `animation-vocabulary` | `react-native-animation-vocabulary` |
